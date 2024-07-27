@@ -1,0 +1,11 @@
+.edd-blocks__currency-selector {
+	display: flex;
+
+	&.aligncenter {
+		justify-content: center;
+	}
+
+	&.alignright {
+		justify-content: flex-end;
+	}
+}

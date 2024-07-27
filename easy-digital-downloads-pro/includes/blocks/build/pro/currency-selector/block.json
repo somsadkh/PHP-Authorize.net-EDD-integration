@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "edd/currency-selector",
+  "version": "2.0.0",
+  "title": "EDD Currency Selector",
+  "category": "easy-digital-downloads",
+  "icon": "money",
+  "description": "Allows your customers to switch the store's currency.",
+  "keywords": [
+    "easy digital downloads",
+    "edd",
+    "currency"
+  ],
+  "supports": {
+    "html": false,
+    "align": [
+      "center",
+      "left",
+      "right"
+    ]
+  },
+  "textdomain": "easy-digital-downloads",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "attributes": {
+    "widget_type": {
+      "type": "string",
+      "default": "buttons"
+    }
+  }
+}

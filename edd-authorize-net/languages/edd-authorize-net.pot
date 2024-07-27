@@ -1,0 +1,231 @@
+# Copyright (C) 2023 Easy Digital Downloads
+# This file is distributed under the same license as the Easy Digital Downloads - Authorize.net Gateway plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Digital Downloads - Authorize.net Gateway 2.0.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/edd-authorize-net\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-09-29T17:14:01+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: edda\n"
+
+#. Plugin Name of the plugin
+msgid "Easy Digital Downloads - Authorize.net Gateway"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://easydigitaldownloads.com/downloads/authorize-net-gateway/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Adds a payment gateway for Authorize.net."
+msgstr ""
+
+#. Author of the plugin
+msgid "Easy Digital Downloads"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://easydigitaldownloads.com"
+msgstr ""
+
+#: edd-authorize-net.php:239
+msgid "This plugin is not fully active."
+msgstr ""
+
+#: edd-authorize-net.php:272
+msgid "Requirements"
+msgstr ""
+
+#: edd-authorize-net.php:283
+msgid "Easy Digital Downloads Authorize.net Checkout Requirements"
+msgstr ""
+
+#: includes/integrations/edd-recurring-payments/edd-recurring-gateway-authorize.php:36
+#: includes/settings.php:13
+#: includes/settings.php:29
+msgid "Authorize.net"
+msgstr ""
+
+#: includes/integrations/edd-recurring-payments/edd-recurring-gateway-authorize.php:85
+#: includes/settings.php:81
+msgid "Note: Authorize.net does not allow daily subscriptions"
+msgstr ""
+
+#. Translators: %s - transaction ID
+#: includes/integrations/edd-recurring-payments/edd-recurring-gateway-authorize.php:180
+msgid "Authorized payment in Authorize.net via transaction ID %s."
+msgstr ""
+
+#. Translators: %1$s - subscription name. %2$s - subscription error
+#: includes/integrations/edd-recurring-payments/edd-recurring-gateway-authorize.php:193
+msgid "Failed creating subscription for %1$s. Gateway returned: %2$s"
+msgstr ""
+
+#: includes/integrations/edd-recurring-payments/edd-recurring-gateway-authorize.php:281
+msgid "Your subscription cannot be created due to an error at the gateway."
+msgstr ""
+
+#. Translators: %s - the transaction ID
+#: includes/integrations/edd-recurring-payments/edd-recurring-gateway-authorize.php:345
+#: includes/integrations/edd-recurring-payments/edd-recurring-gateway-authorize.php:936
+msgid "Successfully voided initial transaction ID %s in Authorize.net"
+msgstr ""
+
+#: includes/integrations/edd-recurring-payments/edd-recurring-gateway-authorize.php:726
+msgid "Please enter all required fields."
+msgstr ""
+
+#: includes/integrations/edd-recurring-payments/edd-recurring-gateway-authorize.php:767
+msgid "There was an error updating your payment method."
+msgstr ""
+
+#: includes/integrations/edd-recurring-payments/edd-recurring-gateway-authorize.php:824
+msgid "Waiting for Authorize.net to complete the transaction"
+msgstr ""
+
+#: includes/integrations/edd-recurring-payments/edd-recurring-gateway-authorize.php:828
+msgid "When the trial period is completed, the first transaction ID will be here."
+msgstr ""
+
+#: includes/integrations/edd-recurring-payments/edd-recurring-gateway-authorize.php:878
+#: includes/webhooks.php:149
+#: includes/webhooks.php:190
+msgid "Missing transaction ID."
+msgstr ""
+
+#: includes/integrations/edd-recurring-payments/edd-recurring-gateway-authorize.php:878
+#: includes/webhooks.php:111
+#: includes/webhooks.php:116
+#: includes/webhooks.php:121
+#: includes/webhooks.php:149
+#: includes/webhooks.php:190
+msgid "Error"
+msgstr ""
+
+#: includes/integrations/edd-recurring-payments/edd-recurring-gateway-authorize.php:1167
+msgid "No response returned."
+msgstr ""
+
+#. translators: %s - the response data to show to users who can manage shop options.
+#: includes/integrations/edd-recurring-payments/edd-recurring-gateway-authorize.php:1185
+#: includes/integrations/edd-recurring-payments/edd-recurring-gateway-authorize.php:1271
+msgid "An error occurred processing your request."
+msgstr ""
+
+#: includes/integrations/edd-recurring-payments/edd-recurring-gateway-authorize.php:1240
+#: includes/integrations/edd-recurring-payments/edd-recurring-gateway-authorize.php:1244
+#: includes/integrations/edd-recurring-payments/edd-recurring-gateway-authorize.php:1248
+#: includes/misc-functions.php:251
+msgid "This transaction has been declined."
+msgstr ""
+
+#: includes/integrations/edd-recurring-payments/edd-recurring-gateway-authorize.php:1252
+msgid "A valid amount is required"
+msgstr ""
+
+#: includes/integrations/edd-recurring-payments/edd-recurring-gateway-authorize.php:1256
+#: includes/misc-functions.php:259
+msgid "The credit card number is invalid."
+msgstr ""
+
+#: includes/integrations/edd-recurring-payments/edd-recurring-gateway-authorize.php:1260
+#: includes/misc-functions.php:263
+msgid "Credit card expiration date is invalid."
+msgstr ""
+
+#: includes/integrations/edd-recurring-payments/edd-recurring-gateway-authorize.php:1264
+#: includes/misc-functions.php:267
+msgid "The credit card has expired."
+msgstr ""
+
+#. translators: %s - the response data to show to users who can manage shop options.
+#: includes/integrations/edd-recurring-payments/edd-recurring-gateway-authorize.php:1270
+msgid "An error occured. Response Data: %s"
+msgstr ""
+
+#: includes/misc-functions.php:72
+msgid "Error: Failed to record payment. Please try again."
+msgstr ""
+
+#: includes/misc-functions.php:170
+msgid "No response returned"
+msgstr ""
+
+#: includes/misc-functions.php:214
+msgid "Error: your payment could not be recorded, but you may have been charged. Please contact the store owner."
+msgstr ""
+
+#: includes/misc-functions.php:255
+msgid "A valid amount is required."
+msgstr ""
+
+#: includes/misc-functions.php:271
+msgid "An error occurred. Error code: %d"
+msgstr ""
+
+#: includes/misc-functions.php:273
+msgid "An unknown error has occurred. Please try again or contact support if the error persists."
+msgstr ""
+
+#: includes/misc-functions.php:292
+msgid "Please enter your last name."
+msgstr ""
+
+#: includes/settings.php:14
+msgid "Credit Card"
+msgstr ""
+
+#: includes/settings.php:48
+msgid "API Login ID"
+msgstr ""
+
+#: includes/settings.php:49
+msgid "Enter your authorize.net API login ID"
+msgstr ""
+
+#: includes/settings.php:54
+msgid "Transaction Key"
+msgstr ""
+
+#: includes/settings.php:55
+msgid "Enter your authorize.net transaction key"
+msgstr ""
+
+#: includes/settings.php:60
+msgid "Signature Key"
+msgstr ""
+
+#: includes/settings.php:61
+msgid "Enter your authorize.net signature key. To generate a Signature Key, follow this guide:"
+msgstr ""
+
+#: includes/settings.php:61
+msgid "How to create signature key for Authorize.net"
+msgstr ""
+
+#: includes/webhooks.php:111
+msgid "Invalid Webhook Data."
+msgstr ""
+
+#: includes/webhooks.php:116
+msgid "Invalid hash."
+msgstr ""
+
+#: includes/webhooks.php:121
+msgid "Missing event type."
+msgstr ""
+
+#: includes/webhooks.php:165
+msgid "Payment confirmed valid by Authorize.net webhook"
+msgstr ""
+
+#: init.php:79
+#: init.php:91
+msgid "Cheatin&#8217; huh?"
+msgstr ""
